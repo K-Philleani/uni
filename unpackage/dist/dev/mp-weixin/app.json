@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "测试项目",
+    "navigationBarBackgroundColor": "#858FE9",
+    "backgroundColor": "#FCCD7C",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 100
+  },
+  "usingComponents": {}
+}
