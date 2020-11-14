@@ -1,17 +1,40 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/message/message"
+    "pages/message/message",
+    "pages/contact/contact"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "测试项目",
-    "navigationBarBackgroundColor": "#858FE9",
+    "navigationBarTitleText": "uni",
+    "navigationBarBackgroundColor": "#007AFF",
     "backgroundColor": "#FCCD7C",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": true,
     "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "信息",
+        "pagePath": "pages/message/message",
+        "iconPath": "static/tabs/message.png",
+        "selectedIconPath": "static/tabs/message-active.png"
+      },
+      {
+        "text": "联系",
+        "pagePath": "pages/contact/contact",
+        "iconPath": "static/tabs/contact.png",
+        "selectedIconPath": "static/tabs/contact-active.png"
+      }
+    ]
   },
   "usingComponents": {}
 }
