@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/message/message",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/detail/detail"
   ],
   "subPackages": [],
   "window": {
@@ -15,6 +16,11 @@
     "onReachBottomDistance": 100
   },
   "tabBar": {
+    "color": "#AD85E9",
+    "selectedColor": "#E985C1",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "position": "bottom",
     "list": [
       {
         "text": "首页",

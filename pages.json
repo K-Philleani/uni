@@ -20,7 +20,16 @@
             "path" : "pages/contact/contact",
             "style" :                                                                                    
             {
-                "navigationBarTitleText": "",
+                "navigationBarTitleText": "contact",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "detail",
                 "enablePullDownRefresh": false
             }
             
@@ -36,6 +45,11 @@
 		"onReachBottomDistance": 100
 	},
 	"tabBar": {
+		"color": "#AD85E9",
+		"selectedColor":"#E985C1",
+		"backgroundColor":"#FFFFFF",
+		"borderStyle":"black",
+		"position": "bottom",
 		"list": [
 			{
 				"text": "首页",
@@ -54,6 +68,16 @@
 				"pagePath":"pages/contact/contact",
 				"iconPath":"static/tabs/contact.png",
 				"selectedIconPath":"static/tabs/contact-active.png"
+			}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "详情页",
+				"path": "pages/detail/detail",
+				"query":"id=80"
 			}
 		]
 	}

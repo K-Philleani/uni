@@ -11,17 +11,28 @@
   "appid": "touristappid",
   "projectname": "uni",
   "condition": {
-    "plugin": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
       "list": []
     },
     "game": {
-      "list": []
-    },
-    "gamePlugin": {
+      "current": -1,
       "list": []
     },
     "miniprogram": {
-      "list": []
+      "current": 0,
+      "list": [
+        {
+          "name": "详情页",
+          "query": "id=80",
+          "id": 0,
+          "pathName": "pages/detail/detail"
+        }
+      ]
     }
   }
 }
