@@ -33,7 +33,13 @@
                 "enablePullDownRefresh": false
             }
             
-        }
+        },
+				{
+					"path": "pages/list/list",
+					"style": {
+						"enablePullDownRefresh": true
+					}
+				}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
@@ -75,9 +81,8 @@
 		"current": 0,
 		"list": [
 			{
-				"name": "详情页",
-				"path": "pages/detail/detail",
-				"query":"id=80"
+				"name": "列表页",
+				"path": "pages/list/list"
 			}
 		]
 	}
