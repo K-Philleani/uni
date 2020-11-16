@@ -15,24 +15,21 @@
 				}
 			}
 		}
-		
-        ,{
-            "path" : "pages/contact/contact",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "contact",
-                "enablePullDownRefresh": false
-            }
-            
+    ,{
+     "path" : "pages/contact/contact",
+      "style" :                                                                                    
+        {
+          "navigationBarTitleText": "contact",
+          "enablePullDownRefresh": false
         }
-        ,{
-            "path" : "pages/detail/detail",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "detail",
-                "enablePullDownRefresh": false
-            }
-            
+     }
+     ,{
+        "path" : "pages/detail/detail",
+        "style" :                                                                                    
+          {
+            "navigationBarTitleText": "detail",
+            "enablePullDownRefresh": false
+          }
         },
 				{
 					"path": "pages/list/list",
@@ -42,6 +39,9 @@
 				},
 				{
 					"path": "pages/dataList/dataList"
+				},
+				{
+					"path": "pages/localStorage/localStorage"
 				}
     ],
 	"globalStyle": {
@@ -85,7 +85,7 @@
 		"list": [
 			{
 				"name": "列表页",
-				"path": "pages/index/index"
+				"path": "pages/localStorage/localStorage"
 			}
 		]
 	}
