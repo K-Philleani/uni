@@ -1,7 +1,7 @@
 <template>
 	<view>
-		<view v-for="(item, index) in list">{{item}}</view>
-		<button @click="pullFresh">下拉刷新</button>
+		<view v-for="(item, index) in list" class="box-item">{{item}}</view>
+		<!-- <button @click="pullFresh">下拉刷新</button> -->
 	</view>
 </template>
 
@@ -12,9 +12,13 @@
 			console.log("下拉刷新")
 			uni.stopPullDownRefresh()
 		},
+		onReachBottom() {
+			console.log("页面触底了")
+			this.list = this.list.concat("哈哈哈", "enene ")
+		},
 		data() {
 			return {
-				list: ["前端", "Golang", "Python", "JavaScript"]
+				list: ["前端", "Golang", "Python", "JavaScript", "前端", "Golang", "Python", "JavaScript"]
 			}
 		},
 		methods: {
@@ -26,4 +30,8 @@
 </script>
 
 <style>
+	.box-item {
+		width: 100px;
+		height: 100px;
+	}
 </style>
