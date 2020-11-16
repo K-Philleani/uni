@@ -16,6 +16,7 @@
 		},
 		methods: {
 			uploadImg() {
+				console.log(this.$testText)
 				const that = this
 				uni.chooseImage({
 					count: 5,

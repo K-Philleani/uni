@@ -6,7 +6,6 @@
 </template>
 
 <script>
-	import requestApi from '../../request/request.js'
 	export default {
 		data() {
 			return {
@@ -15,7 +14,7 @@
 		},
 		methods: {
 			getData() {
-				requestApi({
+				this.$request({
 					url: "/api/getAll"
 				}).then(res => {
 					console.log(res)
