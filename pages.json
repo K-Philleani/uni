@@ -42,6 +42,9 @@
 				},
 				{
 					"path": "pages/localStorage/localStorage"
+				},
+				{
+					"path": "pages/images/images"
 				}
     ],
 	"globalStyle": {

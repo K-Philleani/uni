@@ -46,7 +46,7 @@
 				})
 			},
 			setDataSync() {
-				uni.setStorageSync("id", "sync")
+				uni.setStorageSync("id", 20)
 			},
 			getDataSync() {
 				let id = uni.getStorageSync("id")
@@ -61,10 +61,10 @@
 
 <style>
 	.btn {
-		width: 200rpx;
-		height: 80rpx;
+		width: 200px;
+		height: 80px;
 		margin-top: 20px;
-		font-size: 14rpx;
-		line-height: 80rpx;
+		font-size: 14px;
+		line-height: 80px;
 	}
 </style>
