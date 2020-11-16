@@ -88,7 +88,7 @@
 		"list": [
 			{
 				"name": "列表页",
-				"path": "pages/localStorage/localStorage"
+				"path": "pages/message/message"
 			}
 		]
 	}
