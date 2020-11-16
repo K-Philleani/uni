@@ -12,6 +12,10 @@
 
 <script>
 	export default {
+		onLoad(options) {
+			console.log("加载完成")
+			console.log(options)
+		},
 		data() {
 			return {
 				

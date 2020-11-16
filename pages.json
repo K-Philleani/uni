@@ -46,6 +46,15 @@
 				{
 					"path": "pages/images/images"
 				}
+        ,{
+            "path" : "pages/router/router",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
@@ -88,7 +97,7 @@
 		"list": [
 			{
 				"name": "列表页",
-				"path": "pages/message/message"
+				"path": "pages/router/router"
 			}
 		]
 	}
