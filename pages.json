@@ -39,6 +39,9 @@
 					"style": {
 						"enablePullDownRefresh": true
 					}
+				},
+				{
+					"path": "pages/dataList/dataList"
 				}
     ],
 	"globalStyle": {
@@ -82,7 +85,7 @@
 		"list": [
 			{
 				"name": "列表页",
-				"path": "pages/list/list"
+				"path": "pages/index/index"
 			}
 		]
 	}
