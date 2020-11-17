@@ -4,21 +4,29 @@
 		<view class="text-area">
 			<text class="title">{{title}}</text>
 		</view>
+		<Test :msg="msg" @toData="toData"></Test>
 	</view>
 </template>
 
 <script>
+	import Test from "../../components/test.vue"
 	export default {
+		components: {
+			Test
+		},
 		data() {
 			return {
-				title: 'Hello'
+				title: 'Hello',
+				msg: "这是传给子组件的数据"
 			}
 		},
 		onLoad() {
 
 		},
 		methods: {
-
+			toData(num) {
+				console.log(num+ "Test")
+			}
 		}
 	}
 </script>
