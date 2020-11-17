@@ -5,14 +5,29 @@
 			<text class="title">{{title}}</text>
 		</view>
 		<Test :msg="msg" @toData="toData"></Test>
+		<ComA />
+		<ComB />
+		<uni-calendar
+		 :insert="true"
+		 :lunar="true" 
+		 :start-date="'2019-3-2'"
+		 :end-date="'2019-5-20'"
+		 @change="change"
+		/>
 	</view>
 </template>
 
 <script>
 	import Test from "../../components/test.vue"
+	import ComA from "@/components/comA.vue"
+	import ComB from "@/components/comB.vue"
+	import uniCalendar from '@/components/uni-calendar/uni-calendar.vue'
 	export default {
 		components: {
-			Test
+			Test,
+			ComA,
+			ComB,
+			uniCalendar
 		},
 		data() {
 			return {
@@ -26,6 +41,9 @@
 		methods: {
 			toData(num) {
 				console.log(num+ "Test")
+			},
+			change(e) {
+				console.log(e);
 			}
 		}
 	}
